@@ -6,18 +6,18 @@ const initialState = {
 };
 
 const reducer = (state, action) => {
-  const newState = { ...state };
+  // const newState = { ...state };
   switch (action) {
     case 'firstName':
-      // state.fname = 'Clark';
-      // return state;
-      newState.fname = 'Clark';
-      return newState;
+      state.fname = 'Clark';
+      return state;
+    // newState.fname = 'Clark';
+    // return newState;
     case 'lastName':
-      // state.lname = 'Kent';
-      // return state;
-      newState.lname = 'Clark';
-      return newState;
+      state.lname = 'Kent';
+      return state;
+    // newState.lname = 'Clark';
+    // return newState;
     case 'resetName':
       return initialState;
     default:
