@@ -5,3 +5,4 @@
 - [React as a UI Runtime](https://overreacted.io/react-as-a-ui-runtime/)
 - [React 적용 가이드 - React 작동 방법](https://d2.naver.com/helloworld/9297403)
 - [React 톺아보기 - 02. Intro](https://goidle.github.io/react/in-depth-react-intro/)
+- [다른 사람들이 안 알려주는 리액트에서 Context API 잘 쓰는 방법](https://velog.io/@velopert/react-context-tutorial)
